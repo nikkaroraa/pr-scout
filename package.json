@@ -1,0 +1,24 @@
+{
+  "name": "pr-scout",
+  "version": "1.0.0",
+  "description": "AI-powered PR review tool with feature-based traversal and quiz mode",
+  "main": "scripts/review.js",
+  "bin": {
+    "pr-scout": "./scripts/review.js"
+  },
+  "scripts": {
+    "start": "node scripts/review.js"
+  },
+  "keywords": [
+    "github",
+    "pr",
+    "review",
+    "ai",
+    "code-review"
+  ],
+  "author": "nikkaroraa",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
